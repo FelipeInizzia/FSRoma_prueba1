@@ -1,0 +1,22 @@
+{
+    "data":[
+        {
+            "name": "Han",
+            "state": "look,kid...",
+            "description": "he tenido suficiente de niños",
+            "image": "avatar-han.png"
+        },
+        {
+            "name": "Sher",
+            "state": "look,bi...",
+            "description": "hetero curioso",
+            "image": "avatar-Sher.png"
+        },
+        {
+            "name": "Lon",
+            "state": "look,girls...",
+            "description": "me gustan las tias pibe",
+            "image": "avatar-Lon.png"
+        }
+    ]
+}

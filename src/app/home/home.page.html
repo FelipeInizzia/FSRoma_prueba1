@@ -1,0 +1,37 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div id ="container">
+  <!-- <button ion-button (click)="GoToCustomers()" class="btn">IR A CUSTOMERS</button>     --> 
+  
+
+  </div> 
+
+  <div >
+
+
+    <ion-text  color="primary" *ngFor="let cnc1 of Res_cnc1" >
+      <h1>H1: {{cnc1.Nombre}} {{cnc1.Tiempo}} {{cnc1.Estado}} </h1>
+    </ion-text> 
+
+    <ion-text  color="primary" *ngFor="let cnc2 of Res_cnc2" >
+      <h1>H1: {{cnc2.Nombre}} {{cnc2.Tiempo}} {{cnc2.Estado}} </h1>
+    </ion-text> 
+
+    <ion-text  color="primary" *ngFor="let cnc3 of Res_cnc3" >
+      <h1>H1: {{cnc3.Nombre}} {{cnc3.Tiempo}} {{cnc3.Estado}} </h1>
+    </ion-text> 
+
+    <ion-text  color="primary" *ngFor="let cnc4 of Res_cnc4" >
+      <h1>H1: {{cnc4.Nombre}} {{cnc4.Tiempo}} {{cnc4.Estado}} </h1>
+    </ion-text> 
+
+  </div>
+
+
+</ion-content>
